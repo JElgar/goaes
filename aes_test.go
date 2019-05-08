@@ -8,7 +8,7 @@ import (
 func TestAES(t *testing.T){
 
     message := "hellohowareoyoumynameis"
-    key := "testkey"
+    key := "testkeyhelhalkfd"
 
     encrypt([]byte(message), []byte(key))
     fmt.Print("Hello")
